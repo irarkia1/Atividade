@@ -1,0 +1,75 @@
+
+.datass {
+	height: 100px;
+	margin: 0px;
+}
+
+.calendario{
+	margin-top: 300px;
+	margin-left: 0px;
+	width: 300px;
+	font-size: 11px;
+	text-align: center;
+	position: relative;
+}
+
+.table{
+
+top: 100px;
+
+}
+
+.calendario .mes{
+	display: none;
+
+
+
+
+}
+
+.calendario td {
+	padding: 5px;
+	background: #0555;
+
+}
+
+.calendario .mes_title{
+	font-size: 15px;
+
+}
+
+.calendario .mes_title td{
+	background:#069;
+	color: white;
+
+}
+
+.calendario .dia_title{
+	
+}
+
+.calendario #volta, .calendario #vai {
+	padding:0px 10px;
+	font-size: 16px;
+	text-decoration: none;
+	background: linear-gradient(to bottom, #fff, #ccc);
+	line-height: 27px;
+	margin: 3px;
+	position: absolute;
+	color: #333;
+}
+.calendario #volta:hover, .calendario #vai:hover {
+	background: linear-gradient(to bottom, #ccc, #fff);
+	
+}
+
+.calendario #volta{
+	left: -1px;
+	top: -1px;
+}
+
+.calendario #vai{
+	right: -8px;
+	top: -1px;
+}
+

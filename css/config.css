@@ -1,0 +1,98 @@
+#menu {
+	width: 120px;
+	position: absolute;
+	padding: 5px;
+	horder: 1px none black;
+	margin: 0px;
+	background: #9df7ba;
+	top: 80px;
+	left: 760px;
+	height: 400px;
+}
+
+ul.elemento-ul{
+
+	width: 110px;
+	padding: 0px;
+	border: 1px none black;
+	margin: 0px;
+}
+
+li.elemento-li{
+	width: 110px;
+	padding: 5px;
+	border: 1px dashed black;
+	margin: 0px;
+	background: #c5fad6;
+	list-style-type: none;
+}
+
+#menu a span.seta{visibility: hidden;}
+#menu a:hover span.seta{visibility: visible;}
+
+#logo{
+	position: absolute;
+	width: 880px;
+	top: 0px;
+	left: 0pc;
+	border: 2px dashed white;
+	padding: 5px;
+	
+}
+
+#menuesquerda {
+	position: absolute;
+	width: 150px;
+	height: 400px;
+	top: 80px;
+	left: 0px;
+	padding: 5px;
+	background: #cad1d3;
+}
+
+#artigo {
+	position: absolute;
+	width: 600px;
+	top: 80px;
+	left: 160px;
+	padding: 5px;
+}
+
+#rodape {
+	position: absolute;
+	width: 880px;
+	top: 490px;
+	left: 0px;
+	padding: 5px;
+	background:#cad1d3;
+}
+
+#img {
+	position: absolute;
+	width: 880px;
+	top: 0px;
+	left: 0px;
+	height: 80px;
+	padding: 5px;
+
+}
+
+#bolo {
+	position: absolute;
+	width: 400px;
+	top: 0px;
+	left: 50px;
+	height: 200px;
+	margin: 100px;
+	padding: 5px;
+}
+
+#rodapeheader{
+	position: absolute;
+	width: 400px;
+	top: 0px;
+	left: 50px;
+	height: 200px;
+	margin: 300px;
+	padding: 5px;
+}
